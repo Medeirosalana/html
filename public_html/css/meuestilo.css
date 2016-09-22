@@ -1,0 +1,34 @@
+.coluna1{
+    text-align: right;
+}
+.coluna2{
+    text-align: left
+}
+.coluna3{
+    text-align: center;    
+}
+table{
+    margin-left: auto;
+    margin-right: auto;    
+}
+p{
+    font-size: 14pt;
+    font-weight: bold;
+    text-align: center;
+    color: red;
+    font-family: "Comic Sans MS";
+}
+.res{
+    
+}
+.sub{
+    border: none;
+    background-color: greenyellow;
+    width: 100px;  
+    height: 40px;
+    border-radius: 10px;
+    
+}
+.sub:hover{
+    background-color: pink;
+}

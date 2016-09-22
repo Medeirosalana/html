@@ -4,34 +4,76 @@
         <title>Formulario</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+                background-color: pink;
+            }
+            table {
+                background-color: lightblue;
+            }
+            
+        </style>
     </head>
     <body>
-        <form>
-            Nome: <input type="text" name="nome"/><br/>
-            Nascimento: <input type="date" name="niver"/><br/>
-            Filhos: <input type="number" min="0" max="5" name="filhos"/><br/>
-            Satisfação: <input type="range" min="0" max="5" name="nivel"/><br/>
-            Preferencias: <br/>
-            <input type="checkbox" name="futebol" checked/>Futebol<br/>
-            <input type="checkbox" name="cinema" checked/>Cinema<br/>
-            <input type="checkbox" name="praia" checked/>Praia<br/>
-            Sexo: <br/>
-            <input type="radio" name="sexo" checked/>Masculino<br/>
-            <input type="radio" name="sexo"/>Feminino<br/>
-            Cidade:
-            <select>
+        <form method="get" action="">
+            <table border="0" >
+                <tr>
+                    <td>Nome:</td>
+                    <td colspan="2"><input type="text" name="nome"/><br/></td>
+                </tr>
+                <tr>
+                    <td>Nascimento:</td>
+                    <td colspan="2"><input type="date" name="niver"/><br/></td>
+                </tr>
+                <tr>
+                    <td>Filhos:</td>
+                    <td colspan="2"><input type="number" min="0" max="5" name="filhos"/><br/></td>
+                </tr>
+                <tr>
+                    <td>Satisfação:</td>
+                    <td colspan="2"> <input type="range" min="0" max="5" name="nivel"/><br/></td>
+                </tr>
+                <tr>
+                    <td>Preferencias:<br/></td>                   
+                </tr>
+                <tr>
+                    <td > <input type="checkbox" name="futebol" checked/>Futebol<br/></td>                   
+                </tr>
+                <tr>
+                    <td ><input type="checkbox" name="cinema" checked/>Cinema<br/></td>                   
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="praia" checked/>Praia<br/></td>
+                </tr>
+                <tr>
+                    <td> Sexo: <br/></td>
+                </tr>
+                <tr>
+                    <td><input type="radio" name="sexo" checked/>Masculino<br/></td>
+                </tr>
+                <tr>
+                    <td> <input type="radio" name="sexo"/>Feminino<br/></td>
+                </tr>
+                <tr>
+                    <td>Cidade:</td>                
+                    <td colspan="2"><select>
                 <option value="nat"> Natal</option>
-                <option value="jpa">João Pessoa</option>
-                <option value="rec">Recife</option>
-                <option value="for">Fortaleza</option>
-                
+                    <option value="jpa">João Pessoa</option>
+                     <option value="rec">Recife</option>
+                <option value="for">Fortaleza</option>                
             </select><br/>
-            Observações: <br/>
-            <textarea name="obs">Seu texto aqui</textarea><br/>
-            <input type="button" value="Botão"/>
-            <input type="reset" value="Limpar"/>
-            <input type="submit" value="Enviar"/>
-
-        </form>
+                    </td>
+              </tr>
+                <tr>
+                    <td>Observações: <br/></td>               
+                    <td colspan="2"><textarea name="obs">Seu texto aqui</textarea><br/></td>
+                </tr>
+                <tr>
+                    <td> <input type="button" value="Botão"/></td>                
+                    <td><input type="reset" value="Limpar"/></td>                
+                    <td>  <input type="submit" value="Enviar"/></td>                    
+                </tr>                
+            </table>
+            </form>
     </body>
 </html>
