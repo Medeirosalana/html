@@ -1,0 +1,48 @@
+.col1{
+      text-align: right;
+}
+.col2{
+     text-align: left;
+}
+.col4{
+      text-align: center;     
+}
+table{
+    margin-left: auto;
+    margin-right: auto;    
+}
+p{
+    font-size: 20pt;
+    font-weight: bold;
+    text-align: center;
+    color: red;
+    font-family: "Comic Sans MS";
+}
+.col3{
+    font-size: 14pt;
+    font-weight: bold;
+    text-align: center;
+    color: red;
+    font-family: "Comic Sans MS";
+}
+.vot{
+     border: none;
+    background-color: gold;
+    width: 100px;  
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+.limp{
+    border: none;
+    background-color: cornsilk;
+    width: 100px;  
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+body{
+    background-color: gray
+
+}
