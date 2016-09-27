@@ -1,0 +1,33 @@
+#pagina{
+    width: 700px;
+    height: 500px;
+    background-color: lightblue;
+    margin: auto;
+}
+#cabecalho{
+    width: 100%¨;
+    height: 10%;
+    background-color: lightcoral;
+}
+#corpo{
+    width: 100%;
+    height: 80%;
+    background-color: lightpink;
+}
+#lateral{
+    width: 30%;
+    height: 100%;
+    background-color: lightsalmon;
+    float: left;
+}
+#conteudo{
+    width: 60%;
+    height: 100%;
+    background-color: lightyellow;
+    float: left;
+}
+#rodape{
+    width: 100%;
+    height: 10%;
+    background-color: lightgreen;
+}
